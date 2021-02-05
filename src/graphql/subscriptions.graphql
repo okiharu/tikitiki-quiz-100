@@ -1,0 +1,88 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateParticipant {
+  onCreateParticipant {
+    id
+    name
+    point
+    answer
+    isGuest
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateParticipant {
+  onUpdateParticipant {
+    id
+    name
+    point
+    answer
+    isGuest
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteParticipant {
+  onDeleteParticipant {
+    id
+    name
+    point
+    answer
+    isGuest
+    createdAt
+    updatedAt
+  }
+}
+subscription OnCreateQuestion {
+  onCreateQuestion {
+    id
+    text
+    level
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateQuestion {
+  onUpdateQuestion {
+    id
+    text
+    level
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteQuestion {
+  onDeleteQuestion {
+    id
+    text
+    level
+    createdAt
+    updatedAt
+  }
+}
+subscription OnCreateRandomQuestion {
+  onCreateRandomQuestion {
+    id
+    text
+    level
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateRandomQuestion {
+  onUpdateRandomQuestion {
+    id
+    text
+    level
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteRandomQuestion {
+  onDeleteRandomQuestion {
+    id
+    text
+    level
+    createdAt
+    updatedAt
+  }
+}

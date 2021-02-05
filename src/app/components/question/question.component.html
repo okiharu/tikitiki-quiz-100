@@ -1,0 +1,11 @@
+<mat-card>
+  <mat-card-title>質問 {{questionCounter}}/{{setting_question_number}}</mat-card-title>
+  <mat-card-title>
+    <div *ngIf="question">
+      {{question.text}}
+    </div>
+  </mat-card-title>
+  <div *ngIf="count&&isStarted">{{count}}</div>
+  <button mat-raised-button color="primary" *ngIf="!isStarted" (click)="start()">開始</button>
+  <button mat-raised-button color="primary" *ngIf="isStarted" (click)="getNextQuestion()">次へ</button>
+</mat-card>

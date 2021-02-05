@@ -1,0 +1,115 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateParticipant(
+  $input: CreateParticipantInput!
+  $condition: ModelParticipantConditionInput
+) {
+  createParticipant(input: $input, condition: $condition) {
+    id
+    name
+    point
+    answer
+    isGuest
+    createdAt
+    updatedAt
+  }
+}
+mutation UpdateParticipant(
+  $input: UpdateParticipantInput!
+  $condition: ModelParticipantConditionInput
+) {
+  updateParticipant(input: $input, condition: $condition) {
+    id
+    name
+    point
+    answer
+    isGuest
+    createdAt
+    updatedAt
+  }
+}
+mutation DeleteParticipant(
+  $input: DeleteParticipantInput!
+  $condition: ModelParticipantConditionInput
+) {
+  deleteParticipant(input: $input, condition: $condition) {
+    id
+    name
+    point
+    answer
+    isGuest
+    createdAt
+    updatedAt
+  }
+}
+mutation CreateQuestion(
+  $input: CreateQuestionInput!
+  $condition: ModelQuestionConditionInput
+) {
+  createQuestion(input: $input, condition: $condition) {
+    id
+    text
+    level
+    createdAt
+    updatedAt
+  }
+}
+mutation UpdateQuestion(
+  $input: UpdateQuestionInput!
+  $condition: ModelQuestionConditionInput
+) {
+  updateQuestion(input: $input, condition: $condition) {
+    id
+    text
+    level
+    createdAt
+    updatedAt
+  }
+}
+mutation DeleteQuestion(
+  $input: DeleteQuestionInput!
+  $condition: ModelQuestionConditionInput
+) {
+  deleteQuestion(input: $input, condition: $condition) {
+    id
+    text
+    level
+    createdAt
+    updatedAt
+  }
+}
+mutation CreateRandomQuestion(
+  $input: CreateRandomQuestionInput!
+  $condition: ModelRandomQuestionConditionInput
+) {
+  createRandomQuestion(input: $input, condition: $condition) {
+    id
+    text
+    level
+    createdAt
+    updatedAt
+  }
+}
+mutation UpdateRandomQuestion(
+  $input: UpdateRandomQuestionInput!
+  $condition: ModelRandomQuestionConditionInput
+) {
+  updateRandomQuestion(input: $input, condition: $condition) {
+    id
+    text
+    level
+    createdAt
+    updatedAt
+  }
+}
+mutation DeleteRandomQuestion(
+  $input: DeleteRandomQuestionInput!
+  $condition: ModelRandomQuestionConditionInput
+) {
+  deleteRandomQuestion(input: $input, condition: $condition) {
+    id
+    text
+    level
+    createdAt
+    updatedAt
+  }
+}

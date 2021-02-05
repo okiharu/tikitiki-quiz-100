@@ -1,0 +1,13 @@
+<mat-card>
+  <mat-card-title>ランキング</mat-card-title>
+  <mat-divider></mat-divider>
+  <mat-selection-list *ngFor="let participant of participants;let i=index">
+    <mat-list-option (click)="setGuest(participant)" [(selected)]="participant.isGuest">
+      <mat-divider></mat-divider>
+      <div>
+        <span *ngIf="i==0">👑</span>
+        {{participant.name}} : {{participant.point}}
+      </div>
+    </mat-list-option>
+  </mat-selection-list>
+</mat-card>

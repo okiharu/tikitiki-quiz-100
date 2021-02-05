@@ -1,0 +1,18 @@
+type Participant @model {
+  id: ID!
+  name: String!
+  point: Int!
+  answer: String!
+  isGuest: Boolean!
+}
+type Question @model {
+  id: ID!
+  text: String
+  level: Int
+}
+
+type RandomQuestion @model {
+  id: ID!
+  text: String
+  level: Int
+}

@@ -1,0 +1,7 @@
+.mat-card{
+    min-height: 10vh;
+    min-width: 80vh;
+    margin: 10px;
+    background-color:#E8EAF6;
+    text-align: center;
+}

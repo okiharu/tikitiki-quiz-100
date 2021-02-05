@@ -1,0 +1,13 @@
+<div>参加者一覧</div>
+<mat-grid-list cols="4" rowHeight="150px">
+  <mat-grid-tile *ngFor="let participant of participants">
+    <mat-card (click)="addPoint(participant)" fxLayoutGap>
+      <mat-card-header fxLayoutAlign="center">
+        <mat-card-title>{{participant.name}}</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        {{participant.answer}}
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>
