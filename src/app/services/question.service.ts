@@ -7,7 +7,7 @@ import { RandomQuestion } from '../../types/random_question';
 })
 export class QuestionService {
   private randomQuestion: RandomQuestion;
-  setting_question_number = 10;
+  setting_question_number = 15;
   constructor(private api: APIService) {}
 
   listQuestions() {
