@@ -4,8 +4,10 @@
     <div *ngIf="question">
       {{question.text}}
     </div>
+    <div>
+      <div *ngIf="count&&isStarted">{{count}}</div>
+    </div>
   </mat-card-title>
-  <div *ngIf="count&&isStarted">{{count}}</div>
   <button mat-raised-button color="primary" *ngIf="!isStarted" (click)="start()">開始</button>
   <button mat-raised-button color="primary" *ngIf="isStarted" (click)="getNextQuestion()">次へ</button>
 </mat-card>
